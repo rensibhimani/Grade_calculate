@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Potfolio</title>
+    <link rel="stylesheet" href="student.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <h1>Result</h1>
+        <div class="show">
+          <h2>Total: <span id="total"></span></h2>
+          <h2>Percentage: <span id="percentage"></span></h2>
+          <h2>Grade: <span id="grade"></span></h2>
+        </div>
+      </div>
+      <div class="main">
+        <div class="input">
+          <input
+            type="number"
+            placeholder="Maths"
+            name="maths"
+            id="math"
+          /><br />
+          <input
+            type="number"
+            placeholder="Physics"
+            name="physics"
+            id="phy"
+          /><br />
+          <input
+            type="number"
+            placeholder="Chemistry"
+            name="chem"
+            id="chem"
+          /><br />
+          <input type="number" placeholder="Biology" name="bio" id="bio" />
+          <br />
+          <input type="number" placeholder="Computer" name="comp" id="comp" />
+          <br />
+          <button onclick="Calculator()">Calculate Result</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="student.js">
+  </script>
+</html>
