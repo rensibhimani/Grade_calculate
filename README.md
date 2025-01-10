@@ -1,5 +1,5 @@
 # Grade_calculate
 
 
-![Screenshot 2023-12-05 120115](https://github.com/rensibhimani/Grade_calculate/assets/137809172/8aac1f96-1e01-4d83-b597-d48b80809ed6)
-![Screenshot 2023-12-05 120141](https://github.com/rensibhimani/Grade_calculate/assets/137809172/91aeda20-9f4d-4989-baf7-1177da0c4830)
+![Screenshot 2025-01-10 143815](https://github.com/user-attachments/assets/62c72649-973d-462c-a092-640fd9d2519a)
+![Screenshot 2025-01-10 143808](https://github.com/user-attachments/assets/4f4471e3-393f-4bde-b94a-07d255bcf16f)
