@@ -1,4 +1,6 @@
-const Calculator = () => {
+let result = document.getElementById("result");
+    function Calculator() {
+ 
     let math = document.getElementById("math").value;
     let phy = document.getElementById("phy").value;
     let chem = document.getElementById("chem").value;
@@ -24,8 +26,11 @@ const Calculator = () => {
     } else {
       grade = "F";
     }
-
-    document.getElementById("total").innerHTML = total;
-    document.getElementById("percentage").innerHTML = percentage;
-    document.getElementById("grade").innerHTML = grade;
-  };
+     
+// innerHTML show the result
+    document.getElementById("result").innerHTML = `
+  <p><span>Total Marks:</span><span> <strong>${total}</strong></span></p>
+  <p><span>Percentage: </span><span><strong>${percentage.toFixed(2)}</strong></span>%</p>
+  <p><span>Grade: </span><span><strong>${grade}</strong></span></p>
+`;
+  }
